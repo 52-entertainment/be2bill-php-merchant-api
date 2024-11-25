@@ -1,0 +1,6 @@
+AMOUNT;OPERATIONTYPE;ALIAS;ALIASMODE;ORDERID;CLIENTIDENT;CLIENTEMAIL;DESCRIPTION;CLIENTUSERAGENT;CLIENTIP;VERSION;TRANSACTIONID
+100;payment;A1156424;SUBSCRIPTION;order_1413819957;john.doe;john.doe@mail.com;Test;firefox;1.2.3.4;2.0;
+100;payment;A1156424;SUBSCRIPTION;order_1413819957;john.doe;john.doe@mail.com;Test;firefox;1.2.3.4;2.0;
+100;payment;A1156424;SUBSCRIPTION;order_1413819957;john.doe;john.doe@mail.com;Test;firefox;1.2.3.4;2.0;
+100;payment;A1156424;SUBSCRIPTION;order_1413819957;john.doe;john.doe@mail.com;Test;firefox;1.2.3.4;2.0;
+;refund;;;refund_42;;;desc_refund;;;2.0;A1157903

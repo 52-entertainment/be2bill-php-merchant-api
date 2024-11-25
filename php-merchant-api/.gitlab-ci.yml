@@ -1,0 +1,30 @@
+#Help here: https://phpunit.de/supported-versions.html
+
+before_script:
+  - cp tests/ftests/config.php.dist tests/ftests/config.php
+  - curl -L -o phpunit https://phar.phpunit.de/phpunit-7.phar
+  - chmod +x phpunit
+
+php7.1:
+  image: php:7.1
+  script:
+    - ls
+    - php --version
+    - ./phpunit --version
+    - ./phpunit tests/utests
+
+php7.2:
+  image: php:7.2
+  script:
+    - ls
+    - php --version
+    - ./phpunit --version
+    - ./phpunit tests/utests
+
+php7.3:
+  image: php:7.3
+  script:
+    - ls
+    - php --version
+    - ./phpunit --version
+    - ./phpunit tests/utests

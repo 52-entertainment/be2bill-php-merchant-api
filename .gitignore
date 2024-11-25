@@ -1,2 +1,10 @@
 .idea
 .vscode
+.*
+!.gitignore
+!.*.yml
+!../.editorconfig
+phpdoc.xml
+docs
+vendor
+composer.phar
